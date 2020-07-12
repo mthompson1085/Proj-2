@@ -4,7 +4,7 @@ function getData (){
 
     var input = $("#search").val()
 
-var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"&api_key=V8pnrIcD23BbBA4sY0Hv480QXEoHk6YG&limit=5");
+var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"&api_key=V8pnrIcD23BbBA4sY0Hv480QXEoHk6YG&limit=12");
 
 xhr.done(function(response) { 
     
