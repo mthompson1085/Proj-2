@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container img {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
