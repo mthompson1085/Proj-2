@@ -1,7 +1,7 @@
 
-$base-color:navy;
-$base-font-family: 'Cinzel', serif;
-$base-font-color: white;
+$primary-color:navy;
+$font-stack: 'Cinzel', serif;
+$font-color: white;
 
 
 .container{
@@ -15,4 +15,22 @@ $base-font-color: white;
     width: 250px;
     margin: 5px;
 
+}
+
+nav {
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        align-items: right;
+
+    }
+    li {
+        display:inline-flex;
+    }
+    a {
+        display: block;
+        padding: 2px 4px;
+        text-decoration: none;
+    }
 }
