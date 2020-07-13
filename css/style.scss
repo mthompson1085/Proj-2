@@ -4,20 +4,44 @@ $font-stack: 'Cinzel', serif;
 $font-color: white;
 
 
+.doc {
+    background-color: $primary-color;
+    color: $font-color;
+    font-family: $font-stack;
+}
+.title {
+    font-size: 4em;
+}
+.body {
+    margin-top: 10em;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: $primary-color;
+
+
+}
 .container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.container img {
+    background-color: $primary-color;
+     img {
     height: 250px;
     width: 250px;
     margin: 5px;
-
-}
+    }
+    }
 
 nav {
+    display: right;
+    font-size: 2em;
+    background-color: $primary-color;
+    color: $font-color;
+    font-family: $font-stack;
+
     ul{
         margin: 0;
         padding: 0;
@@ -32,5 +56,9 @@ nav {
         display: block;
         padding: 2px 4px;
         text-decoration: none;
+        
     }
+}
+.footer{
+    float:bottom;
 }
