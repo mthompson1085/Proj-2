@@ -4,7 +4,7 @@
   font-family: "Cinzel", serif; }
 
 .title {
-  font-size: 4em; }
+  font-size: 2em; }
 
 .body {
   margin-top: 10em; }
@@ -21,27 +21,28 @@
   flex-wrap: wrap;
   background-color: navy; }
   .container img {
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
     margin: 5px; }
 
 nav {
-  display: right;
-  font-size: 2em;
-  background-color: navy;
-  color: white;
-  font-family: "Cinzel", serif; }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    align-items: right; }
-  nav li {
-    display: inline-flex; }
-  nav a {
-    display: block;
-    padding: 2px 4px;
-    text-decoration: none; }
+  display: flex;
+  font-size: 2 em;
+  justify-content: space-between; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: right; }
+
+li {
+  display: inline-flex; }
+
+a {
+  display: block;
+  padding: 2px 4px;
+  text-decoration: none; }
 
 .footer {
   float: bottom; }
