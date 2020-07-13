@@ -10,7 +10,7 @@ $font-color: white;
     font-family: $font-stack;
 }
 .title {
-    font-size: 4em;
+    font-size: 3em;
 }
 .body {
     margin-top: 10em;
@@ -20,8 +20,6 @@ $font-color: white;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: $primary-color;
-
-
 }
 .container{
     display: flex;
@@ -29,18 +27,17 @@ $font-color: white;
     flex-wrap: wrap;
     background-color: $primary-color;
      img {
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
     margin: 5px;
     }
     }
 
 nav {
-    display: right;
-    font-size: 2em;
-    background-color: $primary-color;
-    color: $font-color;
-    font-family: $font-stack;
+    display: flex;
+    font-size: 3 em;
+    justify-content: space-between
+};
 
     ul{
         margin: 0;
@@ -58,7 +55,6 @@ nav {
         text-decoration: none;
         
     }
-}
 .footer{
     float:bottom;
 }
